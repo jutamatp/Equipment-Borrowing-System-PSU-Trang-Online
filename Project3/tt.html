@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ระบบยืม-คืน</title>
+
+    <link href="pacific.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+    <div id="wrapper">
+
+        <header>
+
+            <h1></h1>
+        </header>
+
+        <nav>
+            <ul>
+
+                <li><a href="index.html">หน้าแรก</a></li>
+                <li><a href="tt.html">สมัครสมาชิก</a></li>
+                <li><a href="index.html">ค้นหาอุปกรณ์</a></li>
+            </ul>
+        </nav>
+
+        <section id="main">
+            <form method="POST" action="s_authen.php">
+                <center>
+                    <h2>User Login(Session)</h2>
+                    <table>
+                        <tr>
+                            <td align="right" valign="middle"> Login Name :
+                            <td align="left">
+                                <input type="text" name="login" size="20">
+                        </tr><br>
+                        <tr>
+                            <td align="right" valign="middle"> Password :
+                            <td align="left">
+                                <input type="password" name="passwd" size="20">
+                        </tr><br>
+                        </table>
+                        <p><input type="submit" name="sub" value="ตกลง">
+                            <input type="reset" name="res" value="ยกเลิก"></p>
+                </center>
+            </form>
+            <footer>
+            </footer>
+        </section>
+    </div>
+</body>
+
+</html>

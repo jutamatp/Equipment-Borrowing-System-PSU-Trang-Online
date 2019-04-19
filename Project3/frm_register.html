@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ระบบยืม-คืน</title>
+
+    <link href="pacific.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+    <div id="wrapper">
+
+        <header>
+
+            <h1></h1>
+        </header>
+
+        <nav>
+            <ul>
+
+                <li><a href="index.html">หน้าแรก</a></li>
+                <li><a href="frm_register.html">สมัครสมาชิก</a></li>
+                <li><a href="index.html">ค้นหาอุปกรณ์</a></li>
+            </ul>
+        </nav>
+
+        <section id="main">
+            <form method="POST" action="register.php">
+                <center>
+                    <h2>สมัครสมาชิกใหม่</h2>
+                </center>
+                <table border="0" width="auto">
+                    <tr>
+                        <td>First name: </td>
+                        <td><input type="text" name="fname" size="50"></td>
+                    </tr>
+                    <tr>
+                        <td>Last name: </td>
+                        <td> <input type="text" name="lname" size="50"></td>
+                    </tr>
+                    <tr>
+                        <td>Login: </td>
+                        <td><input type="text" name="login" size="20"></td>
+                    </tr>
+                    <tr>
+                        <td> Password: </td>
+                        <td> <input type="password" name="passwd" size="50"></td>
+                    </tr>
+                </table>
+                <center>
+                    <p><input type="submit" name="sub" value="Submit">
+                    <input type="reset" name="res" value="Reset"></p>
+                </center>
+        
+            </form>
+            <footer>
+            </footer>
+        </section>
+    </div>
+</body>
+
+</html>
